@@ -17,6 +17,7 @@ class Counter extends Component {
   }
 
   render() {
+    console.log('Render class based component');
     return (
       <div>
         <button onClick={() => this.changeCounter(-1)}>-</button>
